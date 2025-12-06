@@ -7,6 +7,6 @@ bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=["start"])
 def start(message):
-    bot.reply_to(message, "Bot iniciado correctamente 🎉")
+    bot.reply_to(message, "Bot iniciado correctamente 🎉. Yuriet")
 
 bot.polling(none_stop=True)
